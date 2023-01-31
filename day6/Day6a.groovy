@@ -10,7 +10,7 @@ for (i in 0..<input.size() - windowSize + 1) {
         assert 1912 == i + windowSize
         break
     } else {
-        window = new HashSet<String>()
+        window.removeAll { true }
     }
 }
 
